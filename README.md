@@ -27,6 +27,22 @@
 
 `npm publish`
 
+
+### Sample usage in another project
+
+`import { FluentButton, PrimaryButton } from 'react-library-ts';`
+
+```
+    <FluentButton onClick={() => console.log("Clicked")}>
+        Test Button 123
+    </FluentButton>
+    <PrimaryButton onClick={() => console.log("Clicked")}>
+        Test Button 456
+    </PrimaryButton>
+
+```
+
+
 ### Reference
 
 https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
