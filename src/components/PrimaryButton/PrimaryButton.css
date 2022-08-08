@@ -1,0 +1,6 @@
+.primaryButton {
+    border-radius: 3px;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    border: none;
+}  
