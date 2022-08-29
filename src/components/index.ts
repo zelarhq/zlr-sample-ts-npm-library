@@ -6,7 +6,7 @@ export { default as TextareaForm } from './FormComponents/TextareaForm';
 export { default as personPreview } from './FormComponents/personPreview';
 export { default as PeoplePickerForm } from './FormComponents/PeoplePickerForm';
 export { default as FileUploadForm } from './FormComponents/FileUploadForm';
-export { default as DynamicHelper } from './FormComponents/DynamicFields';
+export { default as DynamicFieldLoad } from './FormComponents/DynamicFieldLoad';
 export { default as DropdownFormDepend } from './FormComponents/DropdownFormDepend';
 export { default as DropdownForm } from './FormComponents/DropdownForm';
 export { default as DatePickerForm } from './FormComponents/DatePickerForm';

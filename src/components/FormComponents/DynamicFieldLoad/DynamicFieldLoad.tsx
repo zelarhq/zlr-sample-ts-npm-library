@@ -5,13 +5,13 @@ import DatePickerForm from "../DatePickerForm";
 import DropdownForm from "../DropdownForm";
 import DropdownFormDepend from "../DropdownFormDepend";
  
-
+import {FC} from 'react';
 import PeoplePickerForm from "../PeoplePickerForm";
 import TextareaForm from "../TextareaForm";
 import TextFieldForm from "../TextFieldForm";
 import FileUploadForm from '../FileUploadForm'
-
-const DynamicFieldLoad = (fieldName: string, item: any) => {
+ 
+const DynamicFieldLoad = (fieldName:any, item:any) => {
   switch (fieldName) {
     case "ChoiceGroupForm":
       return <ChoiceGroupForm {...item} />;

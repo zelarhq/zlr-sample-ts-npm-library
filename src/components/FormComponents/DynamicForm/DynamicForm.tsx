@@ -7,7 +7,7 @@ import * as yup from "yup";
 
 import { FC, ReactElement } from "react";
 import { IDynamicForm } from "./DynamicForm.types";
-import DynamicFieldLoad from "../DynamicFields/DynamicHelper";
+import DynamicFieldLoad from "../DynamicFieldLoad/DynamicFieldLoad";
 
 export const ALLMODULES: IComboBoxOption[] = [
   { key: "Controlled Docs", text: "Controlled Docs" },
