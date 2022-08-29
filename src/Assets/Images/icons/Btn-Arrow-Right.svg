@@ -1,0 +1,9 @@
+<svg id="Btn_Arrow_Right" data-name="Btn/Arrow/Right" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectangle_1245" data-name="Rectangle 1245" width="20" height="20" rx="10" fill="#fff" opacity="0"/>
+  <rect id="Rectangle_1246" data-name="Rectangle 1246" width="20" height="20" rx="10" fill="#164ee2" opacity="0"/>
+  <g id="Iconly_Light_Arrow_-_Right_2" data-name="Iconly/Light/Arrow - Right 2" transform="translate(4 3)">
+    <g id="Arrow_-_Right_2" data-name="Arrow - Right 2" transform="translate(4.958 11.083) rotate(-90)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M8.167,0,4.083,4.083,0,0" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

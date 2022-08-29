@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  // scroll-behavior: smooth;
+  // scroll-padding-top: 2rem;
+}
+.harness-root {
+  font-family: "Poppins", sans-serif;
+  > .container {
+    display: initial;
+  }
+}
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+iframe {
+  border: none;
+}
+
+// div[class^="errorMessage-"] {
+//   position: absolute;
+//   padding-top: 4px;
+// }
+// Global Input
+.ms-Label {
+  color: #666666;
+  font-size: 12px;
+}
+.ms-TextField-fieldGroup,
+.ms-Dropdown-title,
+.ms-SearchBox,
+.ms-ComboBox {
+  background: var(--input-bg-color);
+  border: 0;
+  border-radius: var(--inputRadius);
+  min-height: var(--inputsMinHeight);
+  line-height: var(--inputsMinHeight);
+  align-items: center;
+}
+.ms-ComboBox {
+  input {
+    background: transparent;
+  }
+  &:after {
+    border: 0;
+    border-radius: var(--inputRadius);
+  }
+}
+input,
+select,
+.key-value-pair-value span {
+  border-radius: var(--inputRadius) !important;
+  line-height: inherit;
+}
+[aria-invalid="true"] {
+  border: 1px solid var(--error) !important;
+  min-height: var(--inputsMinHeight);
+  line-height: var(--inputsMinHeight);
+  border-radius: var(--inputRadius);
+}
+.ms-Dropdown-container {
+  .ms-Dropdown-caretDownWrapper {
+    height: var(--inputsMinHeight);
+    line-height: var(--inputsMinHeight);
+  }
+}
+
+.errorMessage {
+  color: var(--error);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.errorGroup {
+  label::after {
+    content: " *";
+    color: var(--error);
+    padding-right: 12px;
+  }
+  .ms-PeoplePicker,
+  input[type="text"] {
+    border: 1px solid var(--error);
+    border-radius: var(--inputRadius);
+    min-height: var(--inputsMinHeight);
+  }
+}
+.errorGroupStar .ms-TextField-wrapper .ms-Label::after,
+.errorGroupStar label::after {
+  content: " *";
+  color: var(--error);
+  padding-right: 12px;
+}
+
+.ms-PeoplePicker {
+  .ms-BasePicker-text {
+    padding: 0px 8px;
+  }
+  .ms-BasePicker-input {
+    width: initial;
+    padding: 0;
+    height: 40px;
+  }
+}
+.inputBox {
+  input[type="text"] {
+    // background: var(--input-bg-color);
+    border: 0;
+    border-radius: var(--inputRadius);
+  }
+  &.isDisabled {
+    pointer-events: none;
+    input[type="text"] {
+      border: none rgb(243, 242, 241);
+      background: none rgb(243, 242, 241);
+      color: rgb(161, 159, 157);
+    }
+  }
+}
+
+// Choice Group
+.ChoiceGroup {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  .choicebtn {
+    input[type="radio"] {
+      max-width: 30px;
+      height: 17px;
+      margin-right: 8px;
+    }
+    display: inline-flex;
+    width: inherit;
+    //max-width: 60px;
+    align-items: center;
+    margin-right: 16px;
+    
+  }
+   label.choicebtn{
+    &:after{
+      display: none;
+    }
+  }
+}

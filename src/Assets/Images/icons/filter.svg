@@ -1,0 +1,15 @@
+<svg id="Filter" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <rect id="BTN" width="30" height="30" rx="6" fill="#f7f7f7" opacity="0"/>
+  <rect id="BTN-2" data-name="BTN" width="30" height="30" rx="6" fill="#164ee2" opacity="0"/>
+  <g id="Icon-Filter" transform="translate(5 5)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="20" height="20" fill="#fff" opacity="0"/>
+    <g id="Iconly_Two-tone_Filter" data-name="Iconly/Two-tone/Filter" transform="translate(3.671 3.329)">
+      <g id="Filter-2" data-name="Filter">
+        <path id="Stroke_1" data-name="Stroke 1" d="M5.52.588H0" transform="translate(0 10.555)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M4.4,2.2A2.2,2.2,0,1,1,2.2,0,2.2,2.2,0,0,1,4.4,2.2Z" transform="translate(9.519 8.946)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Stroke_5" data-name="Stroke 5" d="M0,.588H5.521" transform="translate(8.393 1.609)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+        <path id="Stroke_7" data-name="Stroke 7" d="M0,2.2A2.2,2.2,0,1,0,2.2,0,2.2,2.2,0,0,0,0,2.2Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Btn-Search" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Rectangle_1245" data-name="Rectangle 1245" width="20" height="20" rx="10" fill="#fff" opacity="0"/>
+  <rect id="Rectangle_1246" data-name="Rectangle 1246" width="20" height="20" rx="10" fill="#164ee2" opacity="0"/>
+  <g id="Iconly_Two-tone_Search" data-name="Iconly/Two-tone/Search" transform="translate(1.5 1.5)">
+    <g id="Search" transform="translate(1.886 1.886)">
+      <circle id="Ellipse_739" cx="6.101" cy="6.101" r="6.101" transform="translate(0 0)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Line_181" d="M0,0,2.392,2.386" transform="translate(10.345 10.662)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

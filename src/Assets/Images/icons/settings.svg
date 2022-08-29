@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <filter id="background" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#222b45" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon-Settings" transform="translate(45 39)">
+    <g transform="matrix(1, 0, 0, 1, -45, -39)" filter="url(#background)">
+      <rect id="background-2" data-name="background" width="34" height="34" rx="17" transform="translate(45 39)" fill="#fff" opacity="0"/>
+    </g>
+    <g id="Iconly_Two-tone_Setting" data-name="Iconly/Two-tone/Setting" transform="translate(10.001 9)">
+      <g id="Setting">
+        <path id="Path_33946" d="M13.586,4.143,13.1,3.306a1.483,1.483,0,0,0-2.022-.546h0A1.476,1.476,0,0,1,9.06,2.235a1.419,1.419,0,0,1-.2-.709h0A1.483,1.483,0,0,0,7.378,0H6.406A1.476,1.476,0,0,0,4.931,1.483h0A1.483,1.483,0,0,1,3.448,2.944a1.419,1.419,0,0,1-.709-.2h0a1.483,1.483,0,0,0-2.022.546L.2,4.143A1.483,1.483,0,0,0,.737,6.165h0A1.483,1.483,0,0,1,1.479,7.45,1.483,1.483,0,0,1,.737,8.734h0A1.476,1.476,0,0,0,.2,10.749h0l.49.844a1.483,1.483,0,0,0,2.022.575h0a1.469,1.469,0,0,1,2.015.539,1.419,1.419,0,0,1,.2.709h0A1.483,1.483,0,0,0,6.406,14.9h.972a1.483,1.483,0,0,0,1.483-1.476h0a1.476,1.476,0,0,1,1.483-1.483,1.511,1.511,0,0,1,.709.2h0a1.483,1.483,0,0,0,2.022-.539h0l.511-.851a1.476,1.476,0,0,0-.539-2.022h0A1.476,1.476,0,0,1,12.508,6.7a1.454,1.454,0,0,1,.539-.539h0a1.483,1.483,0,0,0,.539-2.015h0Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <ellipse id="Ellipse_737" cx="2.043" cy="2.043" rx="2.043" ry="2.043" transform="translate(4.853 5.406)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

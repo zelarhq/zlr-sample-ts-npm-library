@@ -1,0 +1,46 @@
+.ms-Dialog {
+    .ms-Dialog-header{
+        .ms-Dialog-button--close{
+            display: none;
+        }
+    }
+    .ms-Dialog-inner {
+        .ms-Dialog-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            min-height: 0;
+            padding:0;
+        }
+        .ms-Dialog-subText {
+            text-align: center;
+            font-size: 1rem;
+            margin-top: 8px;
+            font-weight: 600;
+            margin-bottom: 0;
+            color: var(--text-dark-light);
+        }
+    }
+}
+.ms-Dialog-actions {
+    margin-bottom: 24px;
+    .ms-Dialog-actionsRight {
+        gap: 16px;
+        display: flex;
+        justify-content: center;
+        .ms-Button {
+            border-radius: 8px;
+            padding: 8px 26px;
+            border: 0;
+            min-height: 36px;
+            &.cancel {
+                background: var(--cancel-color-bg);
+                color: var(--action-color);
+            }
+            &.submit {
+                color: var(--text-white);
+                background: var(--action-color);
+            }
+        }
+    }
+}

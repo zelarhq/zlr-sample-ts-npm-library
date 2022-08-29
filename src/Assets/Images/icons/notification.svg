@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="124" height="124" viewBox="0 0 124 124">
+  <defs>
+    <filter id="background" x="0" y="0" width="124" height="124" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#222b45" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon-Notification" transform="translate(45 39)">
+    <g transform="matrix(1, 0, 0, 1, -45, -39)" filter="url(#background)">
+      <rect id="background-2" data-name="background" width="34" height="34" rx="17" transform="translate(45 39)" fill="#fff" opacity="0"/>
+    </g>
+    <g id="Iconly_Two-tone_Notification" data-name="Iconly/Two-tone/Notification" transform="translate(11 9)">
+      <g id="Notification">
+        <path id="Path_425" d="M0,9.014V8.846a2.753,2.753,0,0,1,.46-1.391,3.724,3.724,0,0,0,.913-1.769c0-.51,0-1.027.045-1.536C1.648,1.7,4.074,0,6.47,0H6.53c2.4,0,4.823,1.7,5.06,4.15.045.51,0,1.027.037,1.536a3.789,3.789,0,0,0,.913,1.777A2.681,2.681,0,0,1,13,8.846v.16a2.727,2.727,0,0,1-.645,1.827,3.445,3.445,0,0,1-2.181,1.048,34.471,34.471,0,0,1-7.352,0A3.483,3.483,0,0,1,.639,10.834,2.756,2.756,0,0,1,0,9.014Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_421" d="M0,0A2.34,2.34,0,0,0,1.558.862,2.361,2.361,0,0,0,3.279.386,2.207,2.207,0,0,0,3.68,0" transform="translate(4.63 14.416)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

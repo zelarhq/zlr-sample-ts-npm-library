@@ -1,0 +1,37 @@
+.ms-Pivot {
+    display: flex;
+    counter-reset: tabItem;
+}
+
+.ms-Pivot>.ms-Button {
+   // width: 33.3333%;
+    text-align: left;
+    color: #808080;
+}
+
+.ms-Pivot>.ms-Button.is-selected {
+    color: var(--action-color);
+}
+
+.ms-Pivot>.ms-Button.is-selected:before {
+    background-color: var(--action-color);
+}
+
+.ms-Pivot>.ms-Button .ms-Pivot-text {
+    //position: relative;
+    //padding-left: 20px;
+}
+
+/* .ms-Pivot>.ms-Button .ms-Pivot-text:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 14px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    counter-increment: tabItem;
+    content: counter(tabItem, decimal-leading-zero);
+}  */

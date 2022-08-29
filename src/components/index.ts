@@ -1,2 +1,15 @@
 export { default as FluentButton } from './FluentButton';
 export { default as PrimaryButton } from './PrimaryButton';
+export { default as ViewLabelOption } from './FormComponents/ViewLabelOption';
+export { default as TextFieldForm } from './FormComponents/TextFieldForm';
+export { default as TextareaForm } from './FormComponents/TextareaForm';
+export { default as personPreview } from './FormComponents/personPreview';
+export { default as PeoplePickerForm } from './FormComponents/PeoplePickerForm';
+export { default as FileUploadForm } from './FormComponents/FileUploadForm';
+export { default as DynamicHelper } from './FormComponents/DynamicFields';
+export { default as DropdownFormDepend } from './FormComponents/DropdownFormDepend';
+export { default as DropdownForm } from './FormComponents/DropdownForm';
+export { default as DatePickerForm } from './FormComponents/DatePickerForm';
+export { default as ComboBoxMultiCheck } from './FormComponents/ComboBoxMultiCheck';
+export { default as ComboBoxForm } from './FormComponents/ComboBoxForm';
+export { default as ChoiceGroupForm } from './FormComponents/ChoiceGroupForm';

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Icon_Upload" data-name="Icon/Upload" transform="translate(20 20) rotate(180)">
+    <circle id="Ellipse_82" data-name="Ellipse 82" cx="10" cy="10" r="10" fill="#fff" opacity="0"/>
+    <circle id="Ellipse_85" data-name="Ellipse 85" cx="10" cy="10" r="10" fill="rgba(22,78,226,0.05)" opacity="0"/>
+    <g id="Iconly_Two-tone_Paper_Upload" data-name="Iconly/Two-tone/Paper Upload" transform="translate(4.188 3.063)">
+      <g id="Paper_Upload" data-name="Paper Upload">
+        <path id="Stroke_1" data-name="Stroke 1" d="M7.865,0H2.876A2.865,2.865,0,0,0,0,2.8v8.053a2.854,2.854,0,0,0,2.876,2.915H8.866a2.9,2.9,0,0,0,2.8-2.915V3.957Z" transform="translate(0 0.009)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        <path id="Stroke_3" data-name="Stroke 3" d="M0,0V2.182A1.931,1.931,0,0,0,1.927,4.113c.987,0,2,0,2.066,0" transform="translate(7.667)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        <path id="Combined_Shape" data-name="Combined Shape" d="M2.128,2.138H0L2.128,0,4.258,2.138H2.128v0Z" transform="translate(3.414 5.017)" fill="#222" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" opacity="0.4"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="Icon_Pop_out" data-name="Icon/Pop out" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle id="Ellipse_82" data-name="Ellipse 82" cx="10" cy="10" r="10" fill="#fff" opacity="0"/>
+  <circle id="Ellipse_85" data-name="Ellipse 85" cx="10" cy="10" r="10" fill="rgba(22,78,226,0.05)" opacity="0"/>
+  <g id="Iconly-Two-tone-Pop_out" data-name="Iconly-Two-tone-Pop out" transform="translate(4 4)">
+    <g id="Activity" transform="translate(0 0)">
+      <path id="Path" d="M5.977,0H3.188A3.093,3.093,0,0,0,0,3.362V8.644A3.076,3.076,0,0,0,3.188,12H8.811A3.089,3.089,0,0,0,12,8.644V6" transform="translate(0 0)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Group_4642" data-name="Group 4642" transform="translate(6.456 0.001)" opacity="0.4">
+        <path id="Path_6162" data-name="Path 6162" d="M15.039,1.622h2.68V4.311" transform="translate(-12.175 -1.621)" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Path_6163" data-name="Path 6163" d="M9.234,8.493l5.544-5.466" transform="translate(-9.234 -3.027)" fill="none" stroke="#222" stroke-linecap="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

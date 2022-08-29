@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="38" viewBox="0 0 44 38">
+  <defs>
+    <filter id="Rectangle_1245" x="0" y="0" width="44" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dx="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Icon_Slider" data-name="Icon Slider" transform="translate(11 9)">
+    <g transform="matrix(1, 0, 0, 1, -11, -9)" filter="url(#Rectangle_1245)">
+      <rect id="Rectangle_1245-2" data-name="Rectangle 1245" width="26" height="20" rx="10" transform="translate(11 9)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_1246" data-name="Rectangle 1246" width="26" height="20" rx="10" fill="#164ee2" opacity="0"/>
+    <g id="Iconly_Light_Arrow_-_Left_2" data-name="Iconly/Light/Arrow - Left 2" transform="translate(2 4)">
+      <g id="Arrow_-_Left_2" data-name="Arrow - Left 2" transform="translate(7.75 2.5) rotate(90)">
+        <path id="Stroke_1" data-name="Stroke 1" d="M7,0,3.5,3.5,0,0" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g id="Iconly_Light_Arrow_-_Left_2-2" data-name="Iconly/Light/Arrow - Left 2" transform="translate(24 16) rotate(180)">
+      <g id="Arrow_-_Left_2-2" data-name="Arrow - Left 2" transform="translate(7.75 2.5) rotate(90)">
+        <path id="Stroke_1-2" data-name="Stroke 1" d="M7,0,3.5,3.5,0,0" fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

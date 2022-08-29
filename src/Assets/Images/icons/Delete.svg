@@ -1,0 +1,11 @@
+<svg id="Delet" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <circle id="Ellipse_82" data-name="Ellipse 82" cx="10" cy="10" r="10" fill="#fff" opacity="0"/>
+  <circle id="Ellipse_85" data-name="Ellipse 85" cx="10" cy="10" r="10" fill="rgba(22,78,226,0.05)" opacity="0"/>
+  <g id="Iconly_Two-tone_Delete" data-name="Iconly/Two-tone/Delete" transform="translate(1 1)">
+    <g id="Delete" transform="translate(2.813 2.063)">
+      <path id="Stroke_1" data-name="Stroke 1" d="M10.643,0S10.236,5.051,10,7.179A1.678,1.678,0,0,1,8.231,8.809c-1.957.035-3.916.037-5.872,0A1.66,1.66,0,0,1,.643,7.184C.405,5.038,0,0,0,0" transform="translate(1.038 5.038)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" opacity="0.4"/>
+      <path id="Stroke_3" data-name="Stroke 3" d="M12.718.5H0" transform="translate(0 2.117)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Stroke_5" data-name="Stroke 5" d="M7.817,2.617a1.236,1.236,0,0,1-1.211-.993L6.424.712A.96.96,0,0,0,5.5,0H2.321a.96.96,0,0,0-.928.712l-.182.912A1.236,1.236,0,0,1,0,2.617" transform="translate(2.451)" fill="none" stroke="#200e32" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

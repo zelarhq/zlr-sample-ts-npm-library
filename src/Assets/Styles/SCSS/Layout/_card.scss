@@ -1,0 +1,9 @@
+.card{
+    background:var(--bg-white);
+    padding: 1em;
+    border-radius:  8px;
+    box-shadow: 1px 1px 5px rgb(34 34 34 / 14%);
+    &__title{
+        font-size: 18px;
+    }
+}
