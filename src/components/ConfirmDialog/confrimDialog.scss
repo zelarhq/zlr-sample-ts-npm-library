@@ -1,0 +1,19 @@
+.ms-Dialog.confrimDialog { 
+    .ms-Dialog-title{
+        padding: 0;
+    }
+    .ms-Dialog-inner {
+        padding-bottom: 16px;
+        padding: 10px;
+        .ms-Dialog-content { 
+            text-align: center; 
+            .deleteIcon {
+                .ms-Icon {
+                    font-size: 56px;
+                    position: absolute;
+                    color: red;
+                }
+            }
+        } 
+    }
+}
