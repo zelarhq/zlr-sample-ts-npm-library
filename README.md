@@ -30,7 +30,15 @@
 
 ### Sample usage in another project
 
-`import { FluentButton, PrimaryButton } from 'react-library-ts';`
+npm i --legacy-peer-deps sass sass-loader style-loader yup react-icons react-hook-form --save-dev
+
+npm i --legacy-peer-deps @hookform/resolvers react-drag-drop-files --save-dev
+
+npm i --legacy-peer-deps @fluentui/react-hooks --save-dev
+
+npm i celito-library-ts --save-dev
+
+`import { FluentButton, PrimaryButton } from 'celito-library-ts';`
 
 ```
     <FluentButton onClick={() => console.log("Clicked")}>

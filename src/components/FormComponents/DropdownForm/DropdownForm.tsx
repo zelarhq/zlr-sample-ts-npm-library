@@ -1,52 +1,27 @@
 import * as React from "react";
-import {
-  useFormContext,
-  Controller,
-  FieldErrors,
-  Control,
-} from "react-hook-form";
+import { Controller } from "react-hook-form";
 import { Dropdown, IDropdownOption } from "@fluentui/react";
+import { DropDownFormProps } from "./DropdownForm.types";
 
-export interface IDropDownProps {
-  options: IDropdownOption | any;
-  name: string;
-  label: any;
-  placeholder?: string;
-  isRequired?: boolean;
-  control?: Control<any>;
-  register?: any; 
-  id?:any
-  isdisabled?:boolean
-}
-
- const DropdownForm: React.FC<IDropDownProps> = ({
+const DropdownForm: React.FC<DropDownFormProps> = ({
   name,
   label,
+  control,
   options,
   placeholder,
   isRequired,
-  id,
-  isdisabled
-  
-  // control,
-  // register 
-}: IDropDownProps) => {
-  const { control, register } = useFormContext();
+  isdisabled,
+}: DropDownFormProps) => {
   return (
     <>
       <Controller
         control={control}
         name={name}
-        //rules={{ required: true }}
         render={({
           field: { onChange, onBlur, value },
           fieldState: { error },
         }) => {
-          //console.log(value, "Dropdown");
-
           return (
-            <>
-            <input {...register(name)} hidden />
             <Dropdown
               placeholder={placeholder}
               label={label}
@@ -55,8 +30,6 @@ export interface IDropDownProps {
               id={name}
               onBlur={onBlur}
               selectedKey={value}
-              //onChange={onChange}
-             {...register}
               onChange={(
                 e: React.FormEvent<HTMLDivElement> | any,
                 value1: IDropdownOption | any
@@ -64,9 +37,8 @@ export interface IDropDownProps {
                 onChange(value1.key);
               }}
               errorMessage={error ? error.message : ""}
-              disabled={isdisabled}              
+              disabled={isdisabled}
             />
-            </>
           );
         }}
       />
