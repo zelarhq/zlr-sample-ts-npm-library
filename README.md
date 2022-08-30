@@ -54,3 +54,67 @@ npm i celito-library-ts --save-dev
 ### Reference
 
 https://www.thisdot.co/blog/how-to-setup-a-typescript-project-using-rollup-js
+
+
+
+```
+
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { FormProvider, useForm } from "react-hook-form";
+import {
+  FluentButton,
+  PrimaryButton,
+  TextFieldForm,
+  DropDownForm,
+} from "celito-library-ts";
+
+function App() {
+  const methods = useForm();
+
+  const onSubmit = (data: any) => console.log(data);
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+
+        <FluentButton>Test Button 123</FluentButton>
+        <PrimaryButton onClick={() => console.log("Clicked")}>
+          Test Button 456
+        </PrimaryButton>
+
+        <FormProvider {...methods}>
+          <form onSubmit={methods.handleSubmit(onSubmit)}>
+            <TextFieldForm
+              name="GXP_Document"
+              label="GXP_Document"
+              control={methods.control}
+            />
+            <TextFieldForm
+              name="GXP_Document1"
+              label="GXP_Document1"
+              control={methods.control}
+            />
+            <DropDownForm
+              name="GXP_Options"
+              label="GXP_Options"
+              control={methods.control}
+              options={["Hi", "Hello", "Test1"]}
+            />
+          </form>
+        </FormProvider>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+
+```
